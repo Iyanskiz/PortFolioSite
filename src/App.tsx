@@ -3,59 +3,85 @@ import './App.css'
 const metrics = [
   { value: '4+', label: 'Years building' },
   { value: '10+', label: 'Hands-on builds' },
-  { value: 'Power', label: 'Control + systems' },
-  { value: 'Embedded', label: 'Hardware + software' },
+  { value: 'AI', label: 'NexAI + learning' },
+  { value: 'Systems', label: 'Hardware + data' },
 ]
 
 const workExperience = [
   {
-    role: 'Electrical Engineering / Hardware Development',
-    company: 'Circuit design, validation, and prototype iteration',
+    role: 'AI and Applied Problem Solving',
+    company: 'NexAI and AI club work',
     period: '2023 to Present',
     description:
-      'Worked directly on analog and digital circuit behavior, component selection, prototyping, and troubleshooting for practical hardware systems. My focus has been on making ideas testable, reliable, and usable by refining designs through real-world validation rather than theory alone.',
+      'Explored AI driven problem solving through hands on learning, experimentation, and team oriented development. This work included understanding model workflows, applied machine learning ideas, and how intelligent systems can be built around practical use cases and real world constraints.',
   },
   {
-    role: 'Embedded Systems & Control Prototyping',
-    company: 'Microcontroller-based product and system builds',
-    period: '2021 to 2023',
+    role: 'Software Product Work',
+    company: 'SplitzApp',
+    period: '2025 to Present',
     description:
-      'Built and iterated on embedded systems involving sensor interfaces, control logic, power distribution, and hardware debugging. This work strengthened my ability to connect firmware behavior, electrical design choices, and end-use performance into a single working system.',
+      'Worked on product and software experiences that connected user needs with practical implementation. The work involved translating ideas into functional digital experiences, improving usability, and supporting clear execution in a modern product environment.',
   },
   {
-    role: 'Power, Controls, and Systems Thinking',
-    company: 'Self-directed electronics and experimentation',
-    period: '2019 to 2021',
+    role: 'Research and Bioinformatics Work',
+    company: 'Biana',
+    period: '2025 to Present',
     description:
-      'Explored power delivery, control architecture, thermal considerations, and system-level reliability through hands-on builds and iterative testing. That phase developed my understanding of how small design decisions affect efficiency, stability, and real-world performance.',
+      'Contributed to research oriented work involving biological data interpretation, computational analysis, and structured problem solving. This strengthened my ability to work with data, think systematically, and connect technical investigation to meaningful scientific questions.',
+  },
+  {
+    role: 'Electrical Engineering and Hardware Development',
+    company: 'Circuit design, validation, and embedded systems',
+    period: '2020 to 2023',
+    description:
+      'Built and refined hardware solutions across electronics, embedded systems, signal handling, and practical prototyping. This work strengthened my understanding of system design, debugging, validation, and the link between physical hardware and real world performance.',
   },
 ]
 
 const projects = [
   {
-    name: 'Precision Sensor Platform',
+    name: 'NexAI and AI club work',
     summary:
-      'Developed a compact platform for sensor acquisition and signal-processing workflows, focusing on stable power delivery, clean signal chains, and embedded control for dependable measurements.',
-    tags: ['Electronics', 'Signal Processing', 'Embedded Systems', 'Prototype Testing'],
+      'Worked on AI focused learning and applied experimentation, exploring how intelligent systems can be approached with curiosity, technical reasoning, and practical implementation. The work centered on understanding model driven workflows, real world AI use cases, and hands on technical exploration.',
+    tags: ['AI', 'Machine Learning', 'Applied Research', 'Learning'],
     accent: 'violet',
   },
   {
-    name: 'Power & Control Module',
+    name: 'SplitzApp product work',
     summary:
-      'Designed a power-distribution and control module with attention to efficiency, thermal behavior, and predictable operation under changing electrical loads.',
-    tags: ['Power Electronics', 'Systems Thinking', 'Validation', 'Reliability'],
+      'Worked on product focused digital experiences that required clear problem framing, user centered design thinking, and practical execution. The work involved turning ideas into usable experiences with attention to clarity, flow, and end user value.',
+    tags: ['Product Thinking', 'UX', 'Software Execution', 'Problem Solving'],
+    accent: 'violet',
+  },
+  {
+    name: 'Biana research and bioinformatics work',
+    summary:
+      'Applied structured analysis to biological and research driven problems, helping connect raw data to meaningful interpretation. This included computational reasoning, data handling, and scientific problem solving in a research environment.',
+    tags: ['Bioinformatics', 'Data Analysis', 'Research', 'Computational Thinking'],
     accent: 'cyan',
   },
   {
-    name: 'Embedded Control System',
+    name: 'Embedded and hardware systems',
     summary:
-      'Built a microcontroller-based system around switching, feedback, and monitoring logic to support practical product behavior with consistent performance.',
-    tags: ['Control Systems', 'Firmware', 'Testing', 'Hardware Debugging'],
+      'Built hardware and embedded systems around control logic, power behavior, sensing, and validation. The work spanned prototype iteration, debugging, and practical engineering decisions across electrical and systems level challenges.',
+    tags: ['Embedded Systems', 'Power', 'Validation', 'Hardware Design'],
     accent: 'amber',
   },
 ]
 
 const skills = [
+  {
+    title: 'AI + applied intelligence',
+    items: ['AI learning', 'Machine learning concepts', 'Applied AI thinking', 'Model workflows', 'Problem framing', 'Hands on experimentation'],
+  },
+  {
+    title: 'Software + product',
+    items: ['Product thinking', 'UX reasoning', 'Problem solving', 'Feature execution', 'User value', 'Iteration'],
+  },
+  {
+    title: 'Research + bioinformatics',
+    items: ['Research thinking', 'Data interpretation', 'Computational analysis', 'Biological data', 'Scientific workflow', 'Analytical rigor'],
+  },
   {
     title: 'Electrical + electronics',
     items: ['Circuit analysis', 'Analog design', 'Signal behavior', 'Power delivery', 'Component selection', 'PCB fundamentals'],
@@ -65,45 +91,33 @@ const skills = [
     items: ['Embedded C', 'Microcontrollers', 'ADC / PWM / UART', 'Feedback loops', 'Firmware debugging', 'Control logic'],
   },
   {
-    title: 'Power + systems',
-    items: ['Power electronics', 'DC-DC basics', 'Thermal awareness', 'Reliability', 'Efficiency', 'System architecture'],
-  },
-  {
-    title: 'Design + prototyping',
-    items: ['Rapid prototyping', 'PCB thinking', 'Lab testing', '3D printing', 'Iteration', 'Documentation'],
-  },
-  {
-    title: 'Software + analysis',
-    items: ['Python', 'MATLAB', 'LTspice', 'Simulation', 'Data analysis', 'Automation'],
-  },
-  {
-    title: 'Execution + teamwork',
-    items: ['Problem solving', 'Research', 'Technical communication', 'Project ownership', 'Collaboration', 'Iteration'],
+    title: 'Analysis + execution',
+    items: ['Python', 'MATLAB', 'LTspice', 'Simulation', 'Data analysis', 'Technical communication'],
   },
 ]
 
 const achievements = [
-  'Built and improved electronics systems for measurement, control, power distribution, and dependable operation across multiple real-world use cases.',
-  'Worked through the full engineering loop: concept development, hardware choice, prototyping, testing, troubleshooting, and iteration.',
-  'Combined electrical fundamentals, embedded thinking, and practical systems knowledge to turn engineering ideas into working solutions.',
+  'Worked across software product thinking, research driven data work, and embedded hardware execution, creating a broader engineering profile than electronics alone.',
+  'Combined technical problem solving with structured analysis, whether the challenge involved hardware, bioinformatic interpretation, or product development decisions.',
+  'Built through both hands on engineering and research oriented work, balancing experimentation, iteration, and real world implementation.',
 ]
 
 const internships = [
   {
-    title: 'Embedded Systems Intern',
-    detail: 'Worked on microcontroller-based hardware integration, validation, and debugging for practical systems and product prototypes.',
+    title: 'SplitzApp',
+    detail: 'Worked on product oriented software execution, user centered problem solving, and practical development work that connected needs to functional outcomes.',
   },
   {
-    title: 'Circuit Design Intern',
-    detail: 'Focused on analog and digital circuit design, component selection, and hands-on prototype testing in a lab environment.',
+    title: 'Biana',
+    detail: 'Supported research and bioinformatics focused problem solving, including data interpretation and analytical reasoning in a technical scientific setting.',
   },
   {
-    title: 'Power & Controls Intern',
-    detail: 'Evaluated and refined power delivery and control architectures to improve stability, efficiency, and reliability.',
+    title: 'NexAI',
+    detail: 'Explored AI driven learning and applied experimentation, building exposure to model workflows, intelligent systems thinking, and hands on technical problem solving.',
   },
   {
-    title: 'Hardware Development Intern',
-    detail: 'Supported board bring-up, instrumentation, validation, and iterative improvements across multiple hardware builds.',
+    title: 'Embedded Systems and Hardware Development',
+    detail: 'Worked on microcontroller based hardware integration, validation, and debugging while also supporting board bring up, instrumentation, and iterative improvements across hardware builds.',
   },
 ]
 
@@ -135,14 +149,14 @@ function App() {
       <main className="container page">
         <section className="hero" id="home">
           <div className="hero-copy">
-            <p className="eyebrow">Electrical engineering embedded systems power</p>
+            <p className="eyebrow">Engineering AI software research hardware</p>
             <h1>
-              Building thoughtful <span>hardware systems</span> from concept to working reality.
+              Building thoughtful <span>systems</span> across AI, hardware, software, and research.
             </h1>
             <p className="lead">
-              I’m Iyan Shivshankar, an electrical engineering-focused builder working across electronics design, embedded control,
-              power delivery, signal behavior, and prototype validation. My work sits in the overlap between circuit thinking,
-              hardware troubleshooting, and practical product development, turning technical ideas into dependable systems that can be tested, refined, and used.
+              I’m Iyan Shivshankar, an engineering-minded builder working across electronics, embedded systems, AI and applied learning,
+              software product thinking, research based analysis, and practical problem solving. My background spans hardware development,
+              product execution, computational research, and AI exploration, giving me a broad foundation in turning technical ideas into useful systems with measurable impact.
             </p>
 
             <div className="hero-actions">
@@ -173,7 +187,7 @@ function App() {
           <div className="hero-visual" aria-label="profile summary">
             <div className="floating-card card-top">
               <span className="dot green" />
-              Electronics systems
+              AI software research
             </div>
 
             <div className="profile-card">
@@ -182,15 +196,15 @@ function App() {
                 <p className="label">Available for engineering work</p>
                 <h2>Iyan Shivshankar</h2>
                 <p>
-                  Aspiring electrical engineer building practical electronics systems with a focus on reliability, creativity,
-                  and execution across hardware, controls, and embedded design.
+                  Engineer with a broad foundation in hardware, software, research, and systems thinking, focused on practical problem
+                  solving and building useful, reliable solutions across technical domains.
                 </p>
               </div>
             </div>
 
             <div className="floating-card card-bottom">
               <span className="dot blue" />
-              Power controls embedded
+              AI hardware data
             </div>
           </div>
         </section>
@@ -207,7 +221,7 @@ function App() {
         <section className="section" id="about">
           <div className="section-heading">
             <p className="eyebrow">About me</p>
-            <h2>Electrical engineering thinking applied across electronics, power, embedded systems, and product development.</h2>
+            <h2>Engineering thinking applied across AI, hardware, software, research, and product development.</h2>
           </div>
 
           <div className="about-grid">
@@ -244,7 +258,7 @@ function App() {
         <section className="section" id="experience">
           <div className="section-heading">
             <p className="eyebrow">Experience</p>
-            <h2>Working across circuit design, embedded control, power systems, and hardware iteration.</h2>
+            <h2>Working across AI exploration, product work, research, embedded systems, and hardware iteration.</h2>
           </div>
 
           <div className="timeline">
@@ -284,7 +298,7 @@ function App() {
         <section className="section" id="projects">
           <div className="section-heading">
             <p className="eyebrow">Selected work</p>
-            <h2>Projects centered on sensing, control, power, and dependable hardware performance.</h2>
+            <h2>Projects centered on AI, product thinking, research, embedded systems, and dependable technical execution.</h2>
           </div>
 
           <div className="project-grid">
@@ -311,7 +325,7 @@ function App() {
         <section className="section" id="skills">
           <div className="section-heading">
             <p className="eyebrow">Skills</p>
-            <h2>Core strengths across the engineering stack from electronics to execution.</h2>
+            <h2>Core strengths across AI, software, research, electronics, and systems execution.</h2>
           </div>
 
           <div className="skills-grid">
@@ -350,7 +364,7 @@ function App() {
           <div className="contact-card">
             <div>
               <p className="eyebrow">Let’s build something meaningful</p>
-              <h2>Open to electrical engineering, hardware design, embedded systems, and product-focused development work.</h2>
+              <h2>Open to engineering roles spanning AI, software, research, embedded systems, and product focused technical work.</h2>
             </div>
             <div className="contact-actions">
               <a href="mailto:iyan.siddharth@gmail.com" className="primary-btn">
