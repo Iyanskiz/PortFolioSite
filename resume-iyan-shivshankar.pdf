@@ -1,0 +1,48 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 196 >>
+stream
+BT
+/F1 24 Tf
+72 720 Td
+(Iyan Shivshankar) Tj
+0 -32 Td
+/F1 16 Tf
+(Email: iyan.siddharth@gmail.com) Tj
+0 -28 Td
+(GitHub: github.com/Iyanskiz) Tj
+0 -28 Td
+(LinkedIn: linkedin.com/in/iyan-siddharth-a09808276) Tj
+0 -40 Td
+/F1 14 Tf
+(Electrical engineering portfolio summary) Tj
+0 -24 Td
+(Interested in electronics, embedded systems, power, controls, and product development.) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000010 00000 n 
+0000000062 00000 n 
+0000000124 00000 n 
+0000000243 00000 n 
+0000000389 00000 n 
+trailer
+<< /Root 1 0 R /Size 6 >>
+startxref
+473
+%%EOF
